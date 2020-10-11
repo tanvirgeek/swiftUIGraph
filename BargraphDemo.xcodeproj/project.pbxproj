@@ -13,6 +13,8 @@
 		EB6412A6253166690088C278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6412A5253166690088C278 /* Assets.xcassets */; };
 		EB6412A9253166690088C278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6412A8253166690088C278 /* Preview Assets.xcassets */; };
 		EB6412AC253166690088C278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6412AA253166690088C278 /* LaunchScreen.storyboard */; };
+		EB6412B4253166BD0088C278 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6412B3253166BD0088C278 /* BarGraph.swift */; };
+		EBEBE89E25329940006A997B /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEBE89D25329940006A997B /* Report.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB6412A8253166690088C278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB6412AB253166690088C278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB6412AD253166690088C278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB6412B3253166BD0088C278 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		EBEBE89D25329940006A997B /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EB6412AA253166690088C278 /* LaunchScreen.storyboard */,
 				EB6412AD253166690088C278 /* Info.plist */,
 				EB6412A7253166690088C278 /* Preview Content */,
+				EB6412B3253166BD0088C278 /* BarGraph.swift */,
+				EBEBE89D25329940006A997B /* Report.swift */,
 			);
 			path = BargraphDemo;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB6412B4253166BD0088C278 /* BarGraph.swift in Sources */,
+				EBEBE89E25329940006A997B /* Report.swift in Sources */,
 				EB6412A0253166670088C278 /* AppDelegate.swift in Sources */,
 				EB6412A2253166670088C278 /* SceneDelegate.swift in Sources */,
 				EB6412A4253166670088C278 /* ContentView.swift in Sources */,
